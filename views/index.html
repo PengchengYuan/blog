@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>练习部署静态页面</title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/commom.css"/>
+	<link rel="stylesheet" type="text/css" href="css/difference.css"/>
+	<script src="js/jquery1.11.3.js"></script>
+	<script src="js/jQAdd.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	<body class="index_body">
+		<header id="header" class="header">
+			<div class="top">
+				<div class="wrap clear">
+					<ul class="clear right">
+						<li class="left wx hide"><a href="javascript:;"><i></i>微信登录</a></li >
+						<li class="left qq hide"><a href="javascript:;"><i></i>QQ登录</a></li >
+						<li class="left login hide"><a href="html/login.html">登录</a></li >
+						<li class="left hide"><a href="html/register.html">注册</a></li >
+						<li class="left collect"><a href="javascript:;"><i></i>我的收藏</a>
+							<ul>
+								<li><a href="javascript:;">收藏宝贝</a></li>
+								<li><a href="javascript:;">收藏店铺</a></li>
+							</ul>
+						</li>
+						<li class="left gwc_li">
+							<a href="html/pay.html"><i></i>我的购物车</a>
+							<div class="gwc">购物车里没有商品！
+								<div class="shopcart" >
+									<ul class="woyao"></ul>
+									<div class="subbox">
+										<div class="fr right"><a href="html/pay.html"  class="goel">查看购物车</a></div>
+									</div>
+								</div>
+							</div>
+						</li>
+						</li >
+						<li class="left order zhu">
+							<p class="touxiang">
+								<img src="img/head.jpg">欢迎回来！         
+								<span>15834040341</span>
+							</p>
+							<a href="javascript:;"><i></i>我的订单</a>
+						</li >
+						<li class="left help">
+							<a href="javascript:;">帮助中心<i></i></a>
+							<ul>
+								<li><a href="javascript:;">卖家服务</a></li>
+								<li><a href="javascript:;">商家服务</a></li>
+								<li><a href="javascript:;">规则中心</a></li>
+							</ul>
+						</li >
+						<li class="left"><a href="javascript:;">商家后台</a></li >
+					</ul>
+				</div>
+			</div>
+			<div class="bottom clear">
+				<div class="wrap">
+					<a href="javascript:;" target="_blank" class="sales"><img src="img/sales.jpg"></a>
+					<h1 class="logo left"><a href="javascript:;">美丽说  白领的全球导购</a></h1>
+					<form action="" class="search">
+						<div><a href="javascript:;" class="bg_red search_tab">宝贝</a><a href="javascript:;" class="search_tab">店铺</a></div>
+						<input type="text" placeholder="冬天的时髦先从一件毛衣开始吧"/><input type="button"/>
+						<p>
+							<a href="javascript:;">大衣</a><a href="javascript:;" class="red">外套</a>
+							<a href="javascript:;">打底裤</a><a href="javascript:;" class="red">套装</a>
+							<a href="javascript:;">羽绒服</a><a href="javascript:;">打底衫</a>
+							<a href="javascript:;">围巾</a><a href="javascript:;">棉服</a>
+							<a href="javascript:;">高领毛衣</a><a href="javascript:;" class="red">帽子</a>
+							<a href="javascript:;">雪地靴</a><a href="javascript:;">睡衣</a>
+							<a href="javascript:;" class="red">短靴</a>
+						</p>
+					</form>
+					<img src="img/liwu.gif" alt="" class="liwu"/>
+				</div>
+		</header>
+		<nav id="index_nav">
+			<ul class="wrap nav1 clear">
+				<li class="bg_red all left">全部商品
+					<ul class="nav2">
+						<li>
+							<div class="cont clear">
+								<h2><a href="html/list.html">上衣</a></h2>
+								<p><a href="javascript:;" class="red">呢大衣</a><a href="javascript:;">卫衣</a><a href="javascript:;">棉服</a><a href="javascript:;" class="red">套装</a></p>
+							</div>
+							<ul class="nav3">
+								<li>
+									<h3><a href="javascript:;">新品发布</a></h3>
+									<div>
+										<a href="javascript:;" class="red">羽绒服</a><a href="javascript:;">运动衫</a>
+										<a href="javascript:;" class="red">V领上衣</a><a href="javascript:;" class="red">风衣</a>
+										<a href="javascript:;">牛仔外套</a><a href="javascript:;">衬衫</a>
+										<a href="javascript:;" class="red">毛衣</a><a href="javascript:;">长款体恤</a>
+										<a href="javascript:;" class="red">长款外套</a><a href="javascript:;">蕾丝衫</a>
+										<a href="javascript:;">打底衫</a><a href="javascript:;">鹿皮外套</a>
+									</div>
+								</li>
+								<li>
+									<h3><a href="javascript:;">人气热销</a></h3>
+									<div>
+										<a href="javascript:;">T恤</a><a href="javascript:;">基本款</a>
+										<a href="javascript:;">针织开衫</a><a href="javascript:;">运动套装</a>
+										<a href="javascript:;" class="red">V领衬衫</a><a href="javascript:;">条纹衫</a>
+										<a href="javascript:;" class="red">白色衬衫</a><a href="javascript:;">针织衫</a>
+										<a href="javascript:;" class="red">毛衣套装</a><a href="javascript:;">针织背心</a>
+										<a href="javascript:;" class="red">情侣装</a>
+									</div>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<div class="cont clear">
+									<h2><a href="javascript:;">裙子</a></h2>
+									<p><a href="javascript:;">连衣裙</a><a href="javascript:;" class="red">冬季美裙</a><a href="javascript:;">衣裙套装</a></p>
+							</div>
+							<ul class="nav3">
+								<li>
+									<h3><a href="javascript:;">应季裙子</a></h3>
+									<div>
+										<a href="javascript:;">吊带裙</a><a href="javascript:;" class="red">不规则美裙</a>
+										<a href="javascript:;">蕾丝裙</a><a href="javascript:;">包臀裙</a>
+										<a href="javascript:;">一字领</a><a href="javascript:;">碎花裙</a><a href="javascript:;" class="red">假两件美裙</a>
+										<a href="javascript:;" class="red">针织美裙</a><a href="javascript:;">牛仔半身裙</a>
+										<a href="javascript:;">小黑裙</a>
+									</div>
+								</li>
+								<li>
+									<h3><a href="javascript:;">经典必备</a></h3>
+									<div>
+										<a href="javascript:;">衬衫裙</a><a href="javascript:;" class="red">百褶裙</a>
+										<a href="javascript:;">雪纺</a><a href="javascript:;">连衣裙</a>
+										<a href="javascript:;">A字裙</a><a href="javascript:;" class="red">半身裙</a>
+										<a href="javascript:;">蓬蓬裙</a><a href="javascript:;">T恤裙</a>
+										<a href="javascript:;">花朵裙</a>
+									</div>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<div class="cont clear">
+								<h2><a href="javascript:;">裤子</a></h2>
+								<p><a href="javascript:;">阔腿裤</a><a href="javascript:;">毛呢裤</a><a href="javascript:;" class="red">牛仔裤</a></p>
+							</div>
+							<ul class="nav3">
+								<li>
+									<h3><a href="javascript:;">应季新品</a></h3>
+									<div>
+										<a href="javascript:;">高腰阔腿裤</a><a href="javascript:;" class="red">破洞牛仔裤</a>
+										<a href="javascript:;">黑色小脚裤</a>
+										<a href="javascript:;">高腰裤</a><a href="javascript:;">西装裤</a>
+										<a href="javascript:;" class="red">衣裤</a><a href="javascript:;">套装连体裤</a>
+										<a href="javascript:;" class="red">牛仔裤</a>
+									</div>
+								</li>
+								<li>
+									<h3><a href="javascript:;">畅销热卖</a></h3>
+									<div>
+										<a href="javascript:;">连体裤</a><a href="javascript:;" class="red">哈伦裤</a>
+										<a href="javascript:;">背带裤</a><a href="javascript:;">休闲裤</a>
+										<a href="javascript:;" class="red">运动裤</a><a href="javascript:;">裙裤</a>
+										<a href="javascript:;">七分裤</a>
+									</div>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<div class="cont clear">
+								<h2><a href="javascript:;">鞋子</a></h2>
+								<p><a href="javascript:;">冬季新品</a><a href="javascript:;" class="red">短靴</a><a href="javascript:;">单鞋</a><a href="javascript:;">小白鞋</a></p>
+							</div>
+							<ul class="nav3">
+								<li>
+									<h3><a href="javascript:;">畅销热卖</a></h3>
+									<div>
+										<a href="javascript:;">长靴</a><a href="javascript:;">雪地靴</a><a href="javascript:;">冬季新品</a>
+										<a href="javascript:;" class="red">短靴</a><a href="javascript:;" class="red">及踝靴</a>
+										<a href="javascript:;">小白鞋</a><a href="javascript:;" class="red">粗跟鞋</a><a href="javascript:;">高跟鞋</a>
+										<a href="javascript:;">单鞋</a><a href="javascript:;">运动鞋</a>
+										<a href="javascript:;">厚底鞋</a><a href="javascript:;">尖头鞋</a><a href="javascript:;">懒人鞋</a>
+									</div>
+								</li>
+								<li>
+									<h3><a href="javascript:;">潮流速递</a></h3>
+									<div>
+										<a href="javascript:;">马丁靴</a><a href="javascript:;">切尔西靴</a>
+										<a href="javascript:;">及踝靴</a><a href="javascript:;" class="red">长靴</a><a href="javascript:;">坡跟鞋</a>
+										<a href="javascript:;">平底鞋</a><a href="javascript:;" class="red">一脚蹬</a>
+										<a href="javascript:;">帆布鞋</a><a href="javascript:;">牛津鞋</a>
+									</div>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<div class="cont clear">
+								<h2><a href="javascript:;">包包</a></h2>
+								<p><a href="javascript:;" class="red">链条包</a><a href="javascript:;">斜跨包</a><a href="javascript:;">迷你包</a></p>
+							</div>
+							<ul class="nav3">
+								<li>
+									<h3><a href="javascript:;">人气精选</a></h3>
+									<div>
+										<a href="javascript:;">手拿包</a><a href="javascript:;">手提包</a><a href="javascript:;" class="red">双肩包</a>
+										<a href="javascript:;">单肩包</a><a href="javascript:;">大包</a>
+										<a href="javascript:;">小包</a><a href="javascript:;">零钱包</a><a href="javascript:;">钱包</a>
+										<a href="javascript:;" class="red">斜挎包</a><a href="javascript:;">行李箱</a>
+										<a href="javascript:;">帆布包</a><a href="javascript:;">收纳包</a><a href="javascript:;">化妆包</a>
+									</div>
+								</li>
+								<li>
+									<h3><a href="javascript:;">畅销热卖</a></h3>
+									<div>
+										<a href="javascript:;">恶搞包</a><a href="javascript:;" class="red">水桶包</a><a href="javascript:;">复古包</a><a href="javascript:;">贝壳包</a>
+										<a href="javascript:;">方形包</a><a href="javascript:;" class="red">迷你包</a><a href="javascript:;">链条包</a>
+									</div>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<div class="cont clear">
+								<h2><a href="javascript:;">配饰</a></h2>
+								<p><a href="javascript:;" class="red">手表</a><a href="javascript:;">耳饰</a><a href="javascript:;" class="red">锁骨链</a><a href="javascript:;">手镯</a></p>
+							</div>
+							<ul class="nav3">
+								<li>
+									<h3><a href="javascript:;">当季新品</a></h3>
+									<div>
+										<a href="javascript:;" class="red">手套</a><a href="javascript:;">堆堆袜</a><a href="javascript:;">披肩</a>
+										<a href="javascript:;" class="red">短袜</a><a href="javascript:;">渔夫帽</a>
+										<a href="javascript:;">发饰</a><a href="javascript:;">宽檐帽</a><a href="javascript:;" class="red">冬季围巾</a>
+										<a href="javascript:;">指甲贴</a><a href="javascript:;" class="red">棒球帽</a>
+									</div>
+								</li>
+								<li>
+									<h3><a href="javascript:;">畅销热卖</a></h3>
+									<div>
+										<a href="javascript:;" class="red">墨镜</a><a href="javascript:;">组合戒指</a>
+										<a href="javascript:;" class="red">钢带手表</a><a href="javascript:;" class="red">手机壳</a>
+										<a href="javascript:;">几何项链</a><a href="javascript:;" class="red">船袜</a>
+										<a href="javascript:;">脚链</a>
+									</div>
+								</li>
+								<li>
+									<h3><a href="javascript:;">经典必备</a></h3>
+									<div>
+										<a href="javascript:;">胸针</a><a href="javascript:;" class="red">项链</a>
+										<a href="javascript:;">发带</a><a href="javascript:;">假领子</a>
+										<a href="javascript:;">针织帽</a>
+									</div>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<div class="cont clear">
+								<h2><a href="javascript:;">美妆</a></h2>
+								<p><a href="javascript:;">眉笔眉粉</a><a href="javascript:;" class="red">面膜</a><a href="javascript:;">洁面</a></p>
+							</div>
+							<ul class="nav3">
+								<li>
+									<h3><a href="javascript:;">面部护肤</a></h3>
+									<div>
+										<a href="javascript:;" class="red">面膜</a><a href="javascript:;">爽肤水</a><a href="javascript:;">精华</a>
+										<a href="javascript:;">洁面</a><a href="javascript:;">眼霜</a>
+										<a href="javascript:;">防晒霜</a><a href="javascript:;" class="red">护肤套装</a><a href="javascript:;" class="red">乳液面霜</a>
+										<a href="javascript:;">黑裙</a>
+									</div>
+								</li>
+								<li>
+									<h3><a href="javascript:;">香水彩妆</a></h3>
+									<div>
+										<a href="javascript:;" class="red">BB霜</a><a href="javascript:;">粉底液</a><a href="javascript:;">粉饼</a>
+										<a href="javascript:;" class="red">腮红</a><a href="javascript:;">眼线</a>
+										<a href="javascript:;">眼影</a><a href="javascript:;" class="red">睫毛膏</a><a href="javascript:;">眉笔眉粉</a>
+										<a href="javascript:;" class="red">唇妆</a><a href="javascript:;" class="red">指甲油</a>
+										<a href="javascript:;">香水</a><a href="javascript:;">彩妆套装</a>
+									</div>
+								</li>
+								<li>
+									<h3><a href="javascript:;">身体护理</a></h3>
+									<div>
+										<a href="javascript:;">洗发护发</a><a href="javascript:;" class="red">丰胸脱毛</a>
+									</div>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<div class="cont clear">
+								<h2><a href="javascript:;">内衣</a></h2>
+								<p><a href="javascript:;" class="red">内衣套装</a><a href="javascript:;">袜子</a><a href="javascript:;">文胸</a></p>
+							</div>
+							<ul class="nav3">
+								<li>
+									<h3><a href="javascript:;">应季新品</a></h3>
+									<div>
+										<a href="javascript:;" class="red">聚拢内衣</a><a href="javascript:;" class="red">保暖内衣</a><a href="javascript:;">无痕内衣</a>
+										<a href="javascript:;">前扣内衣</a><a href="javascript:;">性感睡衣</a><a href="javascript:;">前扣内衣</a>
+										<a href="javascript:;">蕾丝内衣</a><a href="javascript:;" class="red">薄款内衣</a><a href="javascript:;">比基尼</a>
+									</div>
+								</li>
+								<li>
+									<h3><a href="javascript:;">畅销热卖</a></h3>
+									<div>
+										<a href="javascript:;" class="red">内裤</a><a href="javascript:;">睡衣</a>
+										<a href="javascript:;">运动内衣</a><a href="javascript:;">打底必备</a>
+										<a href="javascript:;" class="red">无钢圈内衣</a>
+									</div>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<div class="cont clear">
+								<h2><a href="javascript:;">男友</a></h2>
+								<p><a href="javascript:;" class="red">冬季新品</a><a href="javascript:;">卫衣</a><a href="javascript:;" class="red">牛仔裤</a></p>
+							</div>
+							<ul class="nav3">
+								<li>
+									<h3><a href="javascript:;">应季潮品</a></h3>
+									<div>
+										<a href="javascript:;">外套</a><a href="javascript:;" class="red">套装</a><a href="javascript:;">针织衫</a>
+										<a href="javascript:;" class="red">休闲裤</a><a href="javascript:;">牛仔裤</a>
+										<a href="javascript:;" class="red">衬衫</a><a href="javascript:;">风衣</a><a href="javascript:;">棒球衫</a>
+									</div>
+								</li>
+								<li>
+									<h3><a href="javascript:;">鞋包配饰</a></h3>
+									<div>
+										<a href="javascript:;" class="red">休闲鞋</a><a href="javascript:;">板鞋</a><a href="javascript:;">袜子</a>
+										<a href="javascript:;">棒球帽</a><a href="javascript:;">手表</a>
+										<a href="javascript:;" class="red">男包</a><a href="javascript:;">太阳镜</a><a href="javascript:;">配饰</a>
+										<a href="javascript:;">帆布鞋</a><a href="javascript:;">运动鞋</a>
+									</div>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<div class="cont clear">
+								<h2><a href="javascript:;">童装</a></h2>
+								<p><a href="javascript:;">女童套装</a><a href="javascript:;" class="red">男童套装</a><a href="javascript:;" class="red">冬季新品</a></p>
+							</div>
+							<ul class="nav3">
+								<li>
+									<h3><a href="javascript:;">婴童服饰</a></h3>
+									<div>
+										<a href="javascript:;">连体衣</a><a href="javascript:;">婴儿礼盒</a><a href="javascript:;">婴儿套装</a>
+										<a href="javascript:;">牛仔裙</a><a href="javascript:;">女童套装</a><a href="javascript:;">男童衬衫</a>
+										<a href="javascript:;" class="red">男童套装</a><a href="javascript:;">男童运动裤</a><a href="javascript:;" class="red">亲子装</a>
+									</div>
+								</li>
+								<li>
+									<h3><a href="javascript:;">鞋包配饰</a></h3>
+									<div>
+										<a href="javascript:;">板鞋</a><a href="javascript:;">运动鞋</a><a href="javascript:;" class="red">帆布鞋</a>
+										<a href="javascript:;" class="red">童包</a><a href="javascript:;">童帽</a>
+										<a href="javascript:;" class="red">童袜</a>
+									</div>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<div class="cont clear noborder">
+								<h2><a href="javascript:;">家居</a></h2>
+								<p><a href="javascript:;" class="red">四件套</a><a href="javascript:;">衣柜</a><a href="javascript:;" class="red">收纳盒</a></p>
+							</div>
+							<ul class="nav3">
+								<li>
+									<h3><a href="javascript:;">精选推荐</a></h3>
+									<div>
+										<a href="javascript:;" class="red">厨房用具</a><a href="javascript:;">生活助手</a><a href="javascript:;">美发器</a>
+										<a href="javascript:;" class="red">文具</a><a href="javascript:;">储物包袋</a><a href="javascript:;">枕头</a>
+										<a href="javascript:;" class="red">抱枕</a><a href="javascript:;">毛巾浴巾</a><a href="javascript:;" class="red">毛绒玩具</a>
+										<a href="javascript:;">洗漱用品</a><a href="javascript:;">小礼物</a>
+									</div>
+								</li>
+								<li>
+									<h3><a href="javascript:;">精致生活</a></h3>
+									<div>
+										<a href="javascript:;">餐饮用品</a><a href="javascript:;">墙贴</a><a href="javascript:;" class="red">地毯</a>
+										<a href="javascript:;">地垫</a><a href="javascript:;" class="red">绿植</a>
+										<a href="javascript:;" class="red">家务清洁</a><a href="javascript:;">水杯</a><a href="javascript:;">家纺</a>
+									</div>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="red left"><a href="javascript:;">首页</a></li>
+				<li class='left'><a href="javascript:;">风格好店</a></li>
+				<li class='left'><a href="javascript:;" class='left'>好物</a></li>
+			</ul>
+		</nav>
+		<banner>
+			<div class="wrap clear">
+				<div class="cont">
+					<ul class="clear">
+						<li class="first"><a href="html/sale.html"><img src="img/banner1.jpg"/></a></li>
+						<li class=""><a href="html/sale.html"><img src="img/banner2.jpg"/></a></li>
+						<li class=""><a href="html/sale.html"><img src="img/banner3.jpg"/></a></li>
+						<li class="last"><a href="html/sale.html"><img src="img/banner4.jpg"/></a></li>
+					</ul>
+					<a href="javascript:;" class="btnL"></a>
+					<a href="javascript:;" class="btnR"></a>
+					<div class="mark">
+						<em></em><em></em><em></em><em></em>
+					</div>
+				</div>
+			</div>
+		</banner>
+		<main id="index_main" class="index_main">
+			<div class="wrap">
+				<div class="tab">
+					<a href="html/sale.html"><img src="img/tab1.jpg" alt="" /></a>
+					<a href="html/sale.html"><img src="img/tab2.jpg" alt="" /></a>
+					<a href="html/sale.html"><img src="img/tab3.jpg" alt="" /></a>
+					<a href="html/sale.html" class="nopad"><img src="img/tab4.jpg" alt="" /></a>
+				</div>
+				<div class="cont">
+					<a href="html/sale.html" class="sale"><img src="img/sale.jpg" alt="" /></a>
+					<p class="backtime">
+						距离结束还有
+						<span class="day">41</span>天
+						<span class="hour">16</span>时
+						<span class="minute">16</span>分
+						<span class="second">28</span>秒		
+					</p>
+					<div class="goods clear">
+						<div class="good left" id="1">
+							<a href="javascript:;" class="img"><img src="img/goods/1.jpg"/></a>
+							<img class="yx" src="img/yx.png"/>
+							<a href="javascript:;" class="tip">2016冬季新款韩版宽松潮保暖圆环夹克棉衣短外套</a>
+							<p>
+								<span class="price">¥302.22</span>
+								<del>￥414.00</del>
+							</p>    
+							<div class="buy clear">           
+								<div class="buyed left">
+									<i>仅剩100件</i>      
+									<div class="altogether">              
+										<div class="remain"></div>
+									</div> 
+								</div>
+								<a href="javascript:;" class="nowbuy right">立即抢购</a>
+							</div>
+						</div>
+						<div class="good left" id="2">
+							<a href="javascript:;" class="img"><img src="img/goods/2.jpg"/></a>
+							<img class="yx" src="img/yx.png"/>
+							<a href="javascript:;" class="tip">【@ZY喜哥同款】宽松慵懒V领套头OVERSIZE学院毛衣</a>
+							<p>
+								<span class="price">¥96.23</span>
+								<del>￥160.39</del>
+							</p>    
+							<div class="buy clear">           
+								<div class="buyed left">
+									<i>仅剩298件</i>      
+									<div class="altogether">              
+										<div class="remain"></div>
+									</div> 
+								</div>
+								<a href="javascript:;" class="nowbuy right">立即抢购</a>
+							</div>
+						</div>
+						<div class="good left" id="3">
+							<a href="javascript:;" class="img"><img src="img/goods/3.jpg"/></a>
+							<img class="yx" src="img/yx.png"/>
+							<a href="javascript:;" class="tip">日韩超薄糖果色防晒丝袜</a>
+							<p>
+								<span class="price">¥18.36</span>
+								<del>￥30.61</del>
+							</p>    
+							<div class="buy clear">           
+								<div class="buyed left">
+									<i>仅剩698件</i>      
+									<div class="altogether">              
+										<div class="remain"></div>
+									</div> 
+								</div>
+								<a href="javascript:;" class="nowbuy right">立即抢购</a>
+							</div>
+						</div>
+						<div class="good left" id="4">
+							<a href="javascript:;" class="img"><img src="img/goods/4.jpg"/></a>
+							<img class="yx" src="img/yx.png"/>
+							<a href="javascript:;" class="tip">【2016韩版秋冬酒红西装中长款羊毛呢子大衣</a>
+							<p>
+								<span class="price">¥184.07</span>
+								<del>￥233.00</del>
+							</p>    
+							<div class="buy clear">           
+								<div class="buyed left">
+									<i>仅剩86件</i>      
+									<div class="altogether">              
+										<div class="remain"></div>
+									</div> 
+								</div>
+								<a href="javascript:;" class="nowbuy right">立即抢购</a>
+							</div>
+						</div>
+						<div class="good left nopad" id="5">
+							<a href="javascript:;" class="img"><img src="img/goods/5.jpg"/></a>
+							<img class="yx" src="img/yx.png"/>
+							<a href="javascript:;" class="tip">冬季连帽真狐狸毛领厚中长款韩版新款棉袄宽松棉衣</a>
+							<p>
+								<span class="price">¥347.23</span>
+								<del>￥578.73</del>
+							</p>    
+							<div class="buy clear">           
+								<div class="buyed left">
+									<i>仅剩199件</i>      
+									<div class="altogether">              
+										<div class="remain"></div>
+									</div> 
+								</div>
+								<a href="javascript:;" class="nowbuy right">立即抢购</a>
+							</div>
+						</div>
+						<div class="good left" id="6">
+							<a href="javascript:;" class="img"><img src="img/goods/6.jpg"/></a>
+							<img class="yx" src="img/yx.png"/>
+							<a href="javascript:;" class="tip">2016冬装新欧美百搭宽松中长款加厚毛呢外套纯色呢子大衣女</a>
+							<p>
+								<span class="price">¥309.00</span>
+								<del>￥515.00</del>
+							</p>    
+							<div class="buy clear">           
+								<div class="buyed left">
+									<i>仅剩449件</i>      
+									<div class="altogether">              
+										<div class="remain"></div>
+									</div> 
+								</div>
+								<a href="javascript:;" class="nowbuy right">立即抢购</a>
+							</div>
+						</div>
+						<div class="good left" id="7">
+							<a href="javascript:;" class="img"><img src="img/goods/7.jpg"/></a>
+							<img class="yx" src="img/yx.png"/>
+							<a href="javascript:;" class="tip">秋冬加厚高领撞色针织衫女套头新款韩版学生毛衣修身条纹打底上衣</a>
+							<p>
+								<span class="price">¥84.52</span>
+								<del>￥140.88</del>
+							</p>    
+							<div class="buy clear">           
+								<div class="buyed left">
+									<i>仅剩46件</i>      
+									<div class="altogether">              
+										<div class="remain"></div>
+									</div> 
+								</div>
+								<a href="javascript:;" class="nowbuy right">立即抢购</a>
+							</div>
+						</div>
+						<div class="good left" id="8">
+							<a href="javascript:;" class="img"><img src="img/goods/8.jpg"/></a>
+							<img class="yx" src="img/yx.png"/>
+							<a href="javascript:;" class="tip">欧美纯色拼接高领A版羊绒短上衣打底上衣</a>
+							<p>
+								<span class="price">¥91.35</span>
+								<del>￥152.25</del>
+							</p>    
+							<div class="buy clear">           
+								<div class="buyed left">
+									<i>仅剩30件</i>      
+									<div class="altogether">              
+										<div class="remain"></div>
+									</div> 
+								</div>
+								<a href="javascript:;" class="nowbuy right">立即抢购</a>
+							</div>
+						</div>
+						<div class="good left" id="9">
+							<a href="javascript:;" class="img"><img src="img/goods/9.jpg"/></a>
+							<img class="yx" src="img/yx.png"/>
+							<a href="javascript:;" class="tip">【擦色牛皮】复古加绒防水台粗跟短靴防滑马丁靴Q179-25</a>
+							<p>
+								<span class="price">¥108.81</span>
+								<del>￥403.00</del>
+							</p>    
+							<div class="buy clear">           
+								<div class="buyed left">
+									<i>仅剩2990件</i>      
+									<div class="altogether">              
+										<div class="remain"></div>
+									</div> 
+								</div>
+								<a href="javascript:;" class="nowbuy right">立即抢购</a>
+							</div>
+						</div>
+						<div class="good left nopad" id="10">
+							<a href="javascript:;" class="img"><img src="img/goods/10.jpg"/></a>
+							<img class="yx" src="img/yx.png"/>
+							<a href="javascript:;" class="tip">秋冬呢子牛角扣大衣毛呢中长款外套</a>
+							<p>
+								<span class="price">¥211.35</span>
+								<del>￥352.25</del>
+							</p>    
+							<div class="buy clear">           
+								<div class="buyed left">
+									<i>仅剩443件</i>      
+									<div class="altogether">              
+										<div class="remain"></div>
+									</div> 
+								</div>
+								<a href="javascript:;" class="nowbuy right">立即抢购</a>
+							</div>
+						</div>
+					</div>
+					<div class="select">
+						<div class="floor1">
+							<div class="top"><img src="img/floor/1t.png" alt="" /></div>
+							<div class="mid clear">
+								<a href="javascript:;" class="left big"><img src="img/floor/1fb.png" alt="" /></a>
+								<p href="" class="left small clear">
+									<a href="javascript:;"><img src="img/floor/1s1.png" alt="" /></a>
+									<a href="javascript:;"><img src="img/floor/1s2.png" alt="" /></a>
+									<a href="javascript:;" class="nopad"><img src="img/floor/1s3.png" alt="" /></a>
+								</p>
+							</div>
+							<div class="bottom clear">
+								<div class="left clear list">
+									<a href="javascript:;">呢大衣</a><a href="javascript:;">针织美裙</a><a href="javascript:;">衬衫</a>
+									<a href="javascript:;" class="red">短靴</a><a href="javascript:;">吊带裙</a><a href="javascript:;">内衣套装</a>
+									<a href="javascript:;">半身裙</a><a href="javascript:;">T恤裙</a><a href="javascript:;" class="red">睡衣套装</a>
+									<a href="javascript:;">吊带背心</a><a href="javascript:;" class="red">卫衣</a><a href="javascript:;">风衣</a>
+									<a href="javascript:;">显瘦美衣</a><a href="javascript:;" class="red">破洞牛仔裤</a><a href="javascript:;" class="red">护手霜</a>
+								</div>
+								<a href="javascript:;"><img src="img/floor/1s4.png" alt="" /></a>
+								<a href="javascript:;"><img src="img/floor/1s5.png" alt="" /></a>
+								<a href="javascript:;"><img src="img/floor/1s6.png" alt="" /></a>
+							</div>
+						</div>
+						<div class="floor2">
+							<div class="top"><img src="img/floor/2t.png" alt="" /></div>
+							<div class="mid clear">
+								<a href="javascript:;" class="left big"><img src="img/floor/2fb.png" alt="" /></a>
+								<p href="" class="left small clear">
+									<a href="javascript:;"><img src="img/floor/2s1.png" alt="" /></a>
+									<a href="javascript:;"><img src="img/floor/2s2.png" alt="" /></a>
+									<a href="javascript:;" class="nopad"><img src="img/floor/2s3.png" alt="" /></a>
+								</p>
+							</div>
+							<div class="bottom clear">
+								<div class="left clear list">
+									<a href="javascript:;" class="red">冬季新品</a><a href="javascript:;">针织衫</a><a href="javascript:;" class="red">卫衣</a>
+									<a href="javascript:;">情侣装</a><a href="javascript:;" class="red">套装</a><a href="javascript:;" class="red">T恤</a>
+									<a href="javascript:;">风衣</a><a href="javascript:;">显瘦美衣</a><a href="javascript:;">皮草</a>
+									<a href="javascript:;">运动套装</a><a href="javascript:;">毛衣</a><a href="javascript:;" class="red">面包服</a>
+									<a href="javascript:;" class="red">呢大衣</a><a href="javascript:;">棒球外套</a><a href="javascript:;">打底衫</a>
+								</div>
+								<a href="javascript:;"><img src="img/floor/2s4.png" alt="" /></a>
+								<a href="javascript:;"><img src="img/floor/2s5.png" alt="" /></a>
+								<a href="javascript:;"><img src="img/floor/2s6.png" alt="" /></a>
+							</div>
+						</div> 
+						<div class="floor3">
+							<div class="top"><img src="img/floor/3t.png" alt="" /></div>
+							<div class="mid clear">
+								<a href="javascript:;" class="left big"><img src="img/floor/3fb.png" alt="" /></a>
+								<p href="" class="left small clear">
+									<a href="javascript:;"><img src="img/floor/3s1.png" alt="" /></a>
+									<a href="javascript:;"><img src="img/floor/3s2.png" alt="" /></a>
+									<a href="javascript:;" class="nopad"><img src="img/floor/3s3.png" alt="" /></a>
+								</p>
+							</div>
+							<div class="bottom clear">
+								<div class="left clear list">
+									<a href="javascript:;">针织美裙</a><a href="javascript:;">牛仔半身裙</a><a href="javascript:;" class="red">毛衣裙</a>
+									<a href="javascript:;">小黑裙</a><a href="javascript:;">长裙</a><a href="javascript:;" class="red">高腰裙</a>
+									<a href="javascript:;">蕾丝裙</a><a href="javascript:;">伞裙</a><a href="javascript:;">包臀裙</a>
+									<a href="javascript:;" class="red">显瘦连衣裙</a><a href="javascript:;">蓬蓬裙</a><a href="javascript:;" class="red">A字裙</a>
+									<a href="javascript:;">半身裙</a><a href="javascript:;">荷叶边美裙</a><a href="javascript:;">礼服裙</a>
+								</div>
+								<a href="javascript:;"><img src="img/floor/3s4.png" alt="" /></a>
+								<a href="javascript:;"><img src="img/floor/3s5.png" alt="" /></a>
+								<a href="javascript:;"><img src="img/floor/3s6.png" alt="" /></a>
+							</div>
+						</div>
+						<div class="floor4">
+							<div class="top"><img src="img/floor/4t.png" alt="" /></div>
+							<div class="mid clear">
+								<a href="javascript:;" class="left big"><img src="img/floor/4fb.png" alt="" /></a>
+								<p href="" class="left small clear">
+									<a href="javascript:;"><img src="img/floor/4s1.png" alt="" /></a>
+									<a href="javascript:;"><img src="img/floor/4s2.png" alt="" /></a>
+									<a href="javascript:;" class="nopad"><img src="img/floor/4s3.png" alt="" /></a>
+								</p>
+							</div>
+							<div class="bottom clear">
+								<div class="left clear list">
+									<a href="javascript:;">黑色小脚裤</a><a href="javascript:;">皮裤</a><a href="javascript:;" class="red">破洞裤</a>
+									<a href="javascript:;">铅笔裤</a><a href="javascript:;">哈伦裤</a><a href="javascript:;" class="red">打底裤</a>
+									<a href="javascript:;">七分裤</a><a href="javascript:;">西装裤</a><a href="javascript:;" class="red">高腰裤</a>
+									<a href="javascript:;" class="red">喇叭裤</a><a href="javascript:;">显瘦连体裤</a><a href="javascript:;">背带裤</a>
+									<a href="javascript:;">运动裤</a><a href="javascript:;" class="red">直筒裤</a><a href="javascript:;" class="red">铅笔裤</a>
+								</div>
+								<a href="javascript:;"><img src="img/floor/4s4.png" alt="" /></a>
+								<a href="javascript:;"><img src="img/floor/4s5.png" alt="" /></a>
+								<a href="javascript:;"><img src="img/floor/4s6.png" alt="" /></a>
+							</div>
+						</div>
+						<div class="floor5">
+							<div class="top"><img src="img/floor/5t.png" alt="" /></div>
+							<div class="mid clear">
+								<a href="javascript:;" class="left big"><img src="img/floor/5fb.png" alt="" /></a>
+								<p href="" class="left small clear">
+									<a href="javascript:;"><img src="img/floor/5s1.png" alt="" /></a>
+									<a href="javascript:;"><img src="img/floor/5s2.png" alt="" /></a>
+									<a href="javascript:;" class="nopad"><img src="img/floor/5s3.png" alt="" /></a>
+								</p>
+							</div>
+							<div class="bottom clear">
+								<div class="left clear list">
+									<a href="javascript:;">冬季新品</a><a href="javascript:;">靴子</a><a href="javascript:;" class="red">短靴</a>
+									<a href="javascript:;" class="red">及踝靴</a><a href="javascript:;">长靴</a><a href="javascript:;">单鞋</a>
+									<a href="javascript:;">小白鞋</a><a href="javascript:;">运动鞋</a><a href="javascript:;">高跟鞋</a>
+									<a href="javascript:;" class="red">马丁靴</a><a href="javascript:;">厚底鞋</a><a href="javascript:;">懒人鞋</a>
+									<a href="javascript:;" class="red">雪地靴</a><a href="javascript:;">帆布鞋</a><a href="javascript:;">切尔西靴</a>
+								</div>
+								<a href="javascript:;"><img src="img/floor/5s4.png" alt="" /></a>
+								<a href="javascript:;"><img src="img/floor/5s5.png" alt="" /></a>
+								<a href="javascript:;"><img src="img/floor/5s6.png" alt="" /></a>
+							</div>
+						</div>
+						<div class="floor6">
+							<div class="top"><img src="img/floor/6t.png" alt="" /></div>
+							<div class="mid clear">
+								<a href="javascript:;" class="left big"><img src="img/floor/6fb.png" alt="" /></a>
+								<p href="" class="left small clear">
+									<a href="javascript:;"><img src="img/floor/6s1.png" alt="" /></a>
+									<a href="javascript:;"><img src="img/floor/6s2.png" alt="" /></a>
+									<a href="javascript:;" class="nopad"><img src="img/floor/6s3.png" alt="" /></a>
+								</p>
+							</div>
+							<div class="bottom clear">
+								<div class="left clear list">
+									<a href="javascript:;">手拿包</a><a href="javascript:;" class="red">百搭墨镜</a><a href="javascript:;" class="red">手机壳</a>
+									<a href="javascript:;">锁骨链</a><a href="javascript:;" class="red">秋季围巾</a><a href="javascript:;">戒指</a>
+									<a href="javascript:;">丝袜</a><a href="javascript:;">水桶包</a><a href="javascript:;" class="red">斜挎包</a>
+									<a href="javascript:;" class="red">项链</a><a href="javascript:;" class="red">迷你包</a><a href="javascript:;">大包</a>
+									<a href="javascript:;">贝雷帽</a><a href="javascript:;">手机壳</a><a href="javascript:;">恶搞包</a>
+								</div>
+								<a href="javascript:;"><img src="img/floor/6s4.png" alt="" /></a>
+								<a href="javascript:;"><img src="img/floor/6s5.png" alt="" /></a>
+								<a href="javascript:;"><img src="img/floor/6s6.png" alt="" /></a>
+							</div>
+						</div>
+						<div class="floor7">
+							<div class="top"><img src="img/floor/7t.png" alt="" /></div>
+							<div class="mid clear">
+								<a href="javascript:;" class="left big"><img src="img/floor/7fb.png" alt="" /></a>
+								<p href="" class="left small clear">
+									<a href="javascript:;"><img src="img/floor/7s1.png" alt="" /></a>
+									<a href="javascript:;"><img src="img/floor/7s2.png" alt="" /></a>
+									<a href="javascript:;" class="nopad"><img src="img/floor/7s3.png" alt="" /></a>
+								</p>
+							</div>
+							<div class="bottom clear">
+								<div class="left clear list">
+									<a href="javascript:;">洁面</a><a href="javascript:;">爽肤水</a><a href="javascript:;">乳液</a>
+									<a href="javascript:;" class="red">面霜</a><a href="javascript:;" class="red">润唇膏</a><a href="javascript:;">卸妆</a>
+									<a href="javascript:;">BB霜</a><a href="javascript:;">眉笔眉粉</a><a href="javascript:;">眼线</a>
+									<a href="javascript:;">眼影</a><a href="javascript:;">睫毛膏</a><a href="javascript:;" class="red">唇妆</a>
+									<a href="javascript:;">指甲油</a><a href="javascript:;">香水</a><a href="javascript:;">沐浴体乳</a>
+								</div>
+								<a href="javascript:;"><img src="img/floor/7s4.png" alt="" /></a>
+								<a href="javascript:;"><img src="img/floor/7s5.png" alt="" /></a>
+								<a href="javascript:;"><img src="img/floor/7s6.png" alt="" /></a>
+							</div>
+						</div>
+						<div class="floor8">
+							<div class="top"><img src="img/floor/8t.png" alt="" /></div>
+							<div class="mid clear">
+								<a href="javascript:;" class="left big"><img src="img/floor/8fb.png" alt="" /></a>
+								<p href="" class="left small clear">
+									<a href="javascript:;"><img src="img/floor/8s1.png" alt="" /></a>
+									<a href="javascript:;"><img src="img/floor/8s2.png" alt="" /></a>
+									<a href="javascript:;" class="nopad"><img src="img/floor/8s3.png" alt="" /></a>
+								</p>
+							</div>
+							<div class="bottom clear">
+								<div class="left clear list">
+									<a href="javascript:;" class="red">T恤</a><a href="javascript:;">POLO衫</a><a href="javascript:;">纯T</a>
+									<a href="javascript:;">男鞋</a><a href="javascript:;" class="red">卫衣</a><a href="javascript:;">棉服</a>
+									<a href="javascript:;" class="red">套装</a><a href="javascript:;" class="red">羽绒服</a><a href="javascript:;">大衣</a>
+									<a href="javascript:;">配饰</a><a href="javascript:;">内衣</a><a href="javascript:;">休闲裤</a>
+									<a href="javascript:;" class="red">牛仔裤</a><a href="javascript:;">运动鞋</a><a href="javascript:;" class="red">帆布鞋</a>
+								</div>
+								<a href="javascript:;"><img src="img/floor/8s4.png" alt="" /></a>
+								<a href="javascript:;"><img src="img/floor/8s5.png" alt="" /></a>
+								<a href="javascript:;"><img src="img/floor/8s6.png" alt="" /></a>
+							</div>
+						</div>
+						<div class="floor9">
+							<div class="top"><img src="img/floor/9t.png" alt="" /></div>
+							<div class="mid clear">
+								<a href="javascript:;" class="left big"><img src="img/floor/9fb.png" alt="" /></a>
+								<p href="" class="left small clear">
+									<a href="javascript:;"><img src="img/floor/9s1.png" alt="" /></a>
+									<a href="javascript:;"><img src="img/floor/9s2.png" alt="" /></a>
+									<a href="javascript:;" class="nopad"><img src="img/floor/9s3.png" alt="" /></a>
+								</p>
+							</div>
+							<div class="bottom clear">
+								<div class="left clear list">
+									<a href="javascript:;">地毯地垫</a><a href="javascript:;" class="red">墙贴</a><a href="javascript:;">玩偶公仔</a>
+									<a class="red" href="">梳妆小物</a><a href="javascript:;">小礼物</a><a href="javascript:;">香薰用品</a>
+									<a href="javascript:;">洗漱用品</a><a href="javascript:;">绿植盆栽</a><a href="javascript:;" class="red">餐饮用具</a>
+									<a href="javascript:;">收纳盒</a><a href="javascript:;">文具</a><a href="javascript:;" class="red">衣柜</a>
+									<a href="javascript:;">抱枕</a><a href="javascript:;" class="red">厨房电器</a><a href="javascript:;">变美神器</a>
+								</div>
+								<a href="javascript:;"><img src="img/floor/9s4.png" alt="" /></a>
+								<a href="javascript:;"><img src="img/floor/9s5.png" alt="" /></a>
+								<a href="javascript:;"><img src="img/floor/9s6.png" alt="" /></a>
+							</div>
+						</div>
+				    </div>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div class="wrap">
+				<div class="clear">
+					<ul class="left">
+						<li>买家帮助</li>			
+						<li><a href="javascript:;">新手指南</a></li>			
+						<li><a href="javascript:;" >服务保障</a></li>			
+						<li><a href="javascript:;" >常见问题</a></li>			
+						<li><a href="javascript:;" >风险监测</a></li>		
+					</ul>		
+					<ul class="left">
+						<li>商家帮助</li>			
+						<li><a href="javascript:;" >商家入驻</a></li>			
+						<li><a href="javascript:;" >商家后台</a></li>		
+					</ul>		
+					<ul class="left">			
+						<li>关于我们</li>			
+						<li><a href="javascript:;" >关于美丽说</a></li>			
+						<li><a href="javascript:;" >联系我们</a></li>		
+					</ul>		
+					<ul class="left init">
+						<li>关注我们</li>			
+						<li><a href="javascript:;" ><strong></strong>新浪微博</a></li>			
+						<li><a href="javascript:;" ><strong></strong>QQ空间</a></li>
+						<li><a href="javascript:;" ><strong></strong>腾讯微博</a></li>
+					</ul>		
+					<ul class="left ewm1">			
+						<li>美丽说微信服务号</li>			
+						<li><img src="img/ewm1.png"></li>
+					</ul>		
+					<ul class="left ewm2 init">			
+						<li>美丽说客户端下载</li>			
+						<li><img src="img/ewm2.png"></li>		
+					</ul>
+				</div>
+				<p class="copyright">Copyright ©2016 Meilishuo.com &nbsp;
+						<a href="javascript:;" >电信与信息服务业务经营许可证100798号</a>&nbsp;
+						<a href="javascript:;" >经营性网站备案信息</a>&nbsp; <br>京ICP备11031139号&nbsp; 京公网安备110108006045&nbsp;&nbsp; 客服电话：4000-800-577&nbsp; 文明办网文明上网举报电话：010-82615762 &nbsp;
+						<a href="javascript:;" >违法不良信息举报中心</a>		
+				</p>
+			</div>
+		</footer>
+		<div class="position" id="position">
+			<div class="cont">
+				<div class="cartNum">0</div>
+				<ul class="sidebar">
+					<li class="li1">
+						<a href="javascript:;">下载<span>APP</span></a>
+						<div class="ewm_App"><img src="img/position/ewm3.png"/></div>
+						<div class="sanjiao"></div>
+					</li>
+					<li class="li2"><a href="html/pay.html">购物车</a></li>
+					<li class="li3"><a href="javascript:;">消息</a></li>
+					<li class="li4"><a href="javascript:;">优惠券</a></li>
+					<li class="li5"><a href="javascript:;">收藏</a></li>
+					<li class="li6"><a href="javascript:;">足迹</a></li>
+				</ul>
+			</div>
+			<a href="#" class="return"></a>
+		</div>
+		<div class="maskOpacity"></div>
+		<div class="maskall ">
+			<div class="big">
+				<a href="html/sale.html" class><img src="img/position/maskbig.png"/></a>
+				<a href="javascript:;" class="bx"><img src="img/x.png" alt="" /></a>
+			</div>
+			<div class="small">
+				<a href="html/sale.html"><img src="img/position/masks.png"/></a>
+				<a href="javascript:;" class="sx"><img src="img/x.png" alt="" /></a>
+			</div>
+		</div>
+</html>
