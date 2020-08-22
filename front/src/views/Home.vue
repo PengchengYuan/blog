@@ -5,7 +5,7 @@
       <h1>执着</h1>
       <h1>勇敢</h1>
     </div>
-    <audio controls="controls"  src="/media/bg.mp3" autoplay roop preload class="bgmp3">
+    <audio src="/media/bg.mp3" controls loop ref="bgMp3" class="bg-mp3">
       您的浏览器不支持音乐播放
     </audio>
   </div>
@@ -15,11 +15,16 @@
   // @ is an alias to /src
 
   export default {
-    name: 'Home'
+    name: 'Home',
+    mounted(){
+      this.$nextTick(() => {
+        this.$refs.bgMp3.play();
+      })
+    }
   }
 </script>
 <style lang="less">
-.bgmp3{
+.bg-mp3{
   position: fixed;
   z-index: -999;
 }
