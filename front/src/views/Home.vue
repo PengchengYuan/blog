@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div class="sologin">
-      <h1>乐观</h1>
+      <h1>乐观(测试)</h1>
       <h1>执着</h1>
       <h1>勇敢</h1>
     </div>
