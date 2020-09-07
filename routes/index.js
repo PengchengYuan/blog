@@ -21,7 +21,9 @@ router.post('/pushCode', function(req, res, next) {
   console.log('请求参数：', req.body);
   if(/* 验证请求是来自GitHub的逻辑 */) {
     rumCommand('sh', ['./deployed.sh'], function (txt) {
-      console.log(txt)
+      res.send({
+        data: 'update success'
+      })
     })
   }else{
 
